@@ -6,3 +6,4 @@ E:\Projects\zCore\PdfSharpNetCore\MigraDoc.DocumentObjectModel\obj\Debug\netcore
 E:\Projects\zCore\PdfSharpNetCore\MigraDoc.DocumentObjectModel\obj\Debug\netcoreapp2.1\MigraDoc.DocumentObjectModel.AssemblyInfo.cs
 E:\Projects\zCore\PdfSharpNetCore\MigraDoc.DocumentObjectModel\obj\Debug\netcoreapp2.1\MigraDoc.DocumentObjectModel.dll
 E:\Projects\zCore\PdfSharpNetCore\MigraDoc.DocumentObjectModel\obj\Debug\netcoreapp2.1\MigraDoc.DocumentObjectModel.pdb
+E:\Projects\zCore\PdfSharpNetCore\MigraDoc.DocumentObjectModel\obj\Debug\netcoreapp2.1\MigraDoc.DocumentObjectModel.csprojAssemblyReference.cache
