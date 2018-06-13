@@ -688,7 +688,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "E:\\Projects\\zCore\\PdfSharpNetCore\\MigraDoc.DocumentObjectModel\\MigraDoc.DocumentObjectModel.csproj",
-      "projectName": "MigraDoc.DocumentObjectModel",
+      "projectName": "MigraDoc.DocumentObjectModel.Core",
       "projectPath": "E:\\Projects\\zCore\\PdfSharpNetCore\\MigraDoc.DocumentObjectModel\\MigraDoc.DocumentObjectModel.csproj",
       "packagesPath": "C:\\Users\\LJGomez\\.nuget\\packages\\",
       "outputPath": "E:\\Projects\\zCore\\PdfSharpNetCore\\MigraDoc.DocumentObjectModel\\obj\\",

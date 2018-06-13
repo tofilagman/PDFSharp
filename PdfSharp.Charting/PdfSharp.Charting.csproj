@@ -1,11 +1,18 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>PdfSharp.Charting.Core</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\PdfSharp.Core\PdfSharp.csproj" />
-  </ItemGroup>
+ <Target Name="Nuget" AfterTargets="Pack">
+    <Message Importance="high" Text="Nuget Cli Started" /> 
+	 <Exec Command="Reddung -w -n" ContinueOnError="true" />
+  </Target>
+
+ <ItemGroup>
+   <PackageReference Include="PdfSharp.Core" Version="1.0.0" />
+ </ItemGroup>
 
 </Project>

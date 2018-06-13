@@ -1,14 +1,18 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>MigraDoc.RtfRendering.Core</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MigraDoc.DocumentObjectModel\MigraDoc.DocumentObjectModel.csproj" />
-    <ProjectReference Include="..\MigraDoc.Rendering\MigraDoc.Rendering.csproj" />
-    <ProjectReference Include="..\PdfSharp.Charting\PdfSharp.Charting.csproj" />
-    <ProjectReference Include="..\PdfSharp.Core\PdfSharp.csproj" />
+    <PackageReference Include="MigraDoc.Rendering.Core" Version="1.0.0" />
   </ItemGroup>
+
+  <Target Name="Nuget" AfterTargets="Pack">
+    <Message Importance="high" Text="Nuget Cli Started" />
+    <Exec Command="Reddung -w -n" ContinueOnError="true" />
+  </Target>
 
 </Project>

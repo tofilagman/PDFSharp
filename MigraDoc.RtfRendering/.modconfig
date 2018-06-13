@@ -1,0 +1,13 @@
+{
+  "Name": "AppModule1.dll",
+  "Version": "1.0.0.0",
+  "Branch": "Root",
+  "Repository": "http://",
+  "DirPath": "Modules",
+  "Dependencies": [],
+  "Nuget": {
+    "Respository": "https://www.nuget.org",
+    "Key": "oy2ammzoqt5zmearmm4qdvlktq5sws7e3ly34mboxtwggu"
+  },
+  "DevelopmentDirectory": "<dirpath>"
+}

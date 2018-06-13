@@ -1,12 +1,9 @@
-E:\Projects\zCore\PdfSharpNetCore\PdfSharp.Charting\bin\Debug\netcoreapp2.1\PdfSharp.Charting.deps.json
-E:\Projects\zCore\PdfSharpNetCore\PdfSharp.Charting\bin\Debug\netcoreapp2.1\PdfSharp.Charting.dll
-E:\Projects\zCore\PdfSharpNetCore\PdfSharp.Charting\bin\Debug\netcoreapp2.1\PdfSharp.Charting.pdb
-E:\Projects\zCore\PdfSharpNetCore\PdfSharp.Charting\bin\Debug\netcoreapp2.1\PdfSharp.dll
-E:\Projects\zCore\PdfSharpNetCore\PdfSharp.Charting\bin\Debug\netcoreapp2.1\PdfSharp.pdb
 E:\Projects\zCore\PdfSharpNetCore\PdfSharp.Charting\obj\Debug\netcoreapp2.1\PdfSharp.Charting.csprojAssemblyReference.cache
 E:\Projects\zCore\PdfSharpNetCore\PdfSharp.Charting\obj\Debug\netcoreapp2.1\PdfSharp.Charting.csproj.CoreCompileInputs.cache
 E:\Projects\zCore\PdfSharpNetCore\PdfSharp.Charting\obj\Debug\netcoreapp2.1\PdfSharp.Charting.AssemblyInfoInputs.cache
 E:\Projects\zCore\PdfSharpNetCore\PdfSharp.Charting\obj\Debug\netcoreapp2.1\PdfSharp.Charting.AssemblyInfo.cs
-E:\Projects\zCore\PdfSharpNetCore\PdfSharp.Charting\obj\Debug\netcoreapp2.1\PdfSharp.Charting.csproj.CopyComplete
-E:\Projects\zCore\PdfSharpNetCore\PdfSharp.Charting\obj\Debug\netcoreapp2.1\PdfSharp.Charting.dll
-E:\Projects\zCore\PdfSharpNetCore\PdfSharp.Charting\obj\Debug\netcoreapp2.1\PdfSharp.Charting.pdb
+E:\Projects\zCore\PdfSharpNetCore\PdfSharp.Charting\bin\Debug\netcoreapp2.1\PdfSharp.Charting.Core.deps.json
+E:\Projects\zCore\PdfSharpNetCore\PdfSharp.Charting\bin\Debug\netcoreapp2.1\PdfSharp.Charting.Core.dll
+E:\Projects\zCore\PdfSharpNetCore\PdfSharp.Charting\bin\Debug\netcoreapp2.1\PdfSharp.Charting.Core.pdb
+E:\Projects\zCore\PdfSharpNetCore\PdfSharp.Charting\obj\Debug\netcoreapp2.1\PdfSharp.Charting.Core.dll
+E:\Projects\zCore\PdfSharpNetCore\PdfSharp.Charting\obj\Debug\netcoreapp2.1\PdfSharp.Charting.Core.pdb

@@ -211,6 +211,33 @@
           }
         }
       },
+      "MigraDoc.DocumentObjectModel.Core/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.1/MigraDoc.DocumentObjectModel.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/MigraDoc.DocumentObjectModel.Core.dll": {}
+        }
+      },
+      "MigraDoc.Rendering.Core/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "MigraDoc.DocumentObjectModel.Core": "1.0.0",
+          "PdfSharp.Charting.Core": "1.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp2.1/MigraDoc.Rendering.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/MigraDoc.Rendering.Core.dll": {}
+        },
+        "resource": {
+          "lib/netcoreapp2.1/de/MigraDoc.Rendering.Core.resources.dll": {
+            "locale": "de"
+          }
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -224,6 +251,30 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "PdfSharp.Charting.Core/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "PdfSharp.Core": "1.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp2.1/PdfSharp.Charting.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/PdfSharp.Charting.Core.dll": {}
+        }
+      },
+      "PdfSharp.Core/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "4.5.0"
+        },
+        "compile": {
+          "lib/netcoreapp2.1/PdfSharp.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/PdfSharp.Core.dll": {}
         }
       },
       "System.Drawing.Common/4.5.0": {
@@ -247,57 +298,6 @@
             "assetType": "runtime",
             "rid": "win"
           }
-        }
-      },
-      "MigraDoc.DocumentObjectModel/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "compile": {
-          "bin/placeholder/MigraDoc.DocumentObjectModel.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MigraDoc.DocumentObjectModel.dll": {}
-        }
-      },
-      "MigraDoc.Rendering/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "MigraDoc.DocumentObjectModel": "1.0.0",
-          "PdfSharp": "1.0.0",
-          "PdfSharp.Charting": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/MigraDoc.Rendering.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MigraDoc.Rendering.dll": {}
-        }
-      },
-      "PdfSharp/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "System.Drawing.Common": "4.5.0"
-        },
-        "compile": {
-          "bin/placeholder/PdfSharp.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PdfSharp.dll": {}
-        }
-      },
-      "PdfSharp.Charting/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "PdfSharp": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/PdfSharp.Charting.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PdfSharp.Charting.dll": {}
         }
       }
     }
@@ -658,6 +658,27 @@
         "version.txt"
       ]
     },
+    "MigraDoc.DocumentObjectModel.Core/1.0.0": {
+      "sha512": "XmPk5IfKDG5kG38zc292hRc649DuE5Y6TNNbgbFzQ3A9zMYE9jLKWq1FbBle7K4BzqWHE6SpFIAKoIJNHi67kg==",
+      "type": "package",
+      "path": "migradoc.documentobjectmodel.core/1.0.0",
+      "files": [
+        "lib/netcoreapp2.1/MigraDoc.DocumentObjectModel.Core.dll",
+        "migradoc.documentobjectmodel.core.1.0.0.nupkg.sha512",
+        "migradoc.documentobjectmodel.core.nuspec"
+      ]
+    },
+    "MigraDoc.Rendering.Core/1.0.0": {
+      "sha512": "AFtF/DkwKWD5STjn2ulBbIXPYYESbAsXKrMAPbUK6r7kFxfgLutX4cmJCsQRjW9ts6faHC4RferbUR8gQOsDnw==",
+      "type": "package",
+      "path": "migradoc.rendering.core/1.0.0",
+      "files": [
+        "lib/netcoreapp2.1/MigraDoc.Rendering.Core.dll",
+        "lib/netcoreapp2.1/de/MigraDoc.Rendering.Core.resources.dll",
+        "migradoc.rendering.core.1.0.0.nupkg.sha512",
+        "migradoc.rendering.core.nuspec"
+      ]
+    },
     "NETStandard.Library/2.0.3": {
       "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
@@ -785,6 +806,26 @@
         "netstandard.library.nuspec"
       ]
     },
+    "PdfSharp.Charting.Core/1.0.0": {
+      "sha512": "WjvDrjJy46Xn41djXf++FnfRJfudjxZHcIgA3kpevHKOYLU79yEBYHxTt1Pgf3nF33k4MOVeivrpGKzpZBTWZA==",
+      "type": "package",
+      "path": "pdfsharp.charting.core/1.0.0",
+      "files": [
+        "lib/netcoreapp2.1/PdfSharp.Charting.Core.dll",
+        "pdfsharp.charting.core.1.0.0.nupkg.sha512",
+        "pdfsharp.charting.core.nuspec"
+      ]
+    },
+    "PdfSharp.Core/1.0.0": {
+      "sha512": "01U2r03PTS0EjKuhyXLLqOqB63DcjTpbq40nBSAcjLYlg90bu1zt7dAaWkPiZaNdaE69hL7zc3TsT+UgvJfoFQ==",
+      "type": "package",
+      "path": "pdfsharp.core/1.0.0",
+      "files": [
+        "lib/netcoreapp2.1/PdfSharp.Core.dll",
+        "pdfsharp.core.1.0.0.nupkg.sha512",
+        "pdfsharp.core.nuspec"
+      ]
+    },
     "System.Drawing.Common/4.5.0": {
       "sha512": "LLI+GGolsv4K8Eu2PN5N3/1t4pM5zoU4fM3lWhSOawJuCjv9iQJJODjd4/QJIgpjlqxzQDMMoOjAaVuzrNJT0g==",
       "type": "package",
@@ -816,35 +857,12 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "MigraDoc.DocumentObjectModel/1.0.0": {
-      "type": "project",
-      "path": "../MigraDoc.DocumentObjectModel/MigraDoc.DocumentObjectModel.csproj",
-      "msbuildProject": "../MigraDoc.DocumentObjectModel/MigraDoc.DocumentObjectModel.csproj"
-    },
-    "MigraDoc.Rendering/1.0.0": {
-      "type": "project",
-      "path": "../MigraDoc.Rendering/MigraDoc.Rendering.csproj",
-      "msbuildProject": "../MigraDoc.Rendering/MigraDoc.Rendering.csproj"
-    },
-    "PdfSharp/1.0.0": {
-      "type": "project",
-      "path": "../PdfSharp.Core/PdfSharp.csproj",
-      "msbuildProject": "../PdfSharp.Core/PdfSharp.csproj"
-    },
-    "PdfSharp.Charting/1.0.0": {
-      "type": "project",
-      "path": "../PdfSharp.Charting/PdfSharp.Charting.csproj",
-      "msbuildProject": "../PdfSharp.Charting/PdfSharp.Charting.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.NETCore.App >= 2.1.0",
-      "MigraDoc.DocumentObjectModel >= 1.0.0",
-      "MigraDoc.Rendering >= 1.0.0",
-      "PdfSharp >= 1.0.0",
-      "PdfSharp.Charting >= 1.0.0"
+      "MigraDoc.Rendering.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -855,7 +873,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "E:\\Projects\\zCore\\PdfSharpNetCore\\MigraDoc.RtfRendering\\MigraDoc.RtfRendering.csproj",
-      "projectName": "MigraDoc.RtfRendering",
+      "projectName": "MigraDoc.RtfRendering.Core",
       "projectPath": "E:\\Projects\\zCore\\PdfSharpNetCore\\MigraDoc.RtfRendering\\MigraDoc.RtfRendering.csproj",
       "packagesPath": "C:\\Users\\LJGomez\\.nuget\\packages\\",
       "outputPath": "E:\\Projects\\zCore\\PdfSharpNetCore\\MigraDoc.RtfRendering\\obj\\",
@@ -876,20 +894,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {
-            "E:\\Projects\\zCore\\PdfSharpNetCore\\MigraDoc.DocumentObjectModel\\MigraDoc.DocumentObjectModel.csproj": {
-              "projectPath": "E:\\Projects\\zCore\\PdfSharpNetCore\\MigraDoc.DocumentObjectModel\\MigraDoc.DocumentObjectModel.csproj"
-            },
-            "E:\\Projects\\zCore\\PdfSharpNetCore\\MigraDoc.Rendering\\MigraDoc.Rendering.csproj": {
-              "projectPath": "E:\\Projects\\zCore\\PdfSharpNetCore\\MigraDoc.Rendering\\MigraDoc.Rendering.csproj"
-            },
-            "E:\\Projects\\zCore\\PdfSharpNetCore\\PdfSharp.Charting\\PdfSharp.Charting.csproj": {
-              "projectPath": "E:\\Projects\\zCore\\PdfSharpNetCore\\PdfSharp.Charting\\PdfSharp.Charting.csproj"
-            },
-            "E:\\Projects\\zCore\\PdfSharpNetCore\\PdfSharp.Core\\PdfSharp.csproj": {
-              "projectPath": "E:\\Projects\\zCore\\PdfSharpNetCore\\PdfSharp.Core\\PdfSharp.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -906,6 +911,10 @@
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
+          },
+          "MigraDoc.Rendering.Core": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           }
         },
         "imports": [

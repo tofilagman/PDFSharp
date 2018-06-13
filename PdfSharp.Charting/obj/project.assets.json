@@ -226,6 +226,18 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "PdfSharp.Core/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "4.5.0"
+        },
+        "compile": {
+          "lib/netcoreapp2.1/PdfSharp.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/PdfSharp.Core.dll": {}
+        }
+      },
       "System.Drawing.Common/4.5.0": {
         "type": "package",
         "dependencies": {
@@ -247,19 +259,6 @@
             "assetType": "runtime",
             "rid": "win"
           }
-        }
-      },
-      "PdfSharp/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "System.Drawing.Common": "4.5.0"
-        },
-        "compile": {
-          "bin/placeholder/PdfSharp.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PdfSharp.dll": {}
         }
       }
     }
@@ -747,6 +746,16 @@
         "netstandard.library.nuspec"
       ]
     },
+    "PdfSharp.Core/1.0.0": {
+      "sha512": "01U2r03PTS0EjKuhyXLLqOqB63DcjTpbq40nBSAcjLYlg90bu1zt7dAaWkPiZaNdaE69hL7zc3TsT+UgvJfoFQ==",
+      "type": "package",
+      "path": "pdfsharp.core/1.0.0",
+      "files": [
+        "lib/netcoreapp2.1/PdfSharp.Core.dll",
+        "pdfsharp.core.1.0.0.nupkg.sha512",
+        "pdfsharp.core.nuspec"
+      ]
+    },
     "System.Drawing.Common/4.5.0": {
       "sha512": "LLI+GGolsv4K8Eu2PN5N3/1t4pM5zoU4fM3lWhSOawJuCjv9iQJJODjd4/QJIgpjlqxzQDMMoOjAaVuzrNJT0g==",
       "type": "package",
@@ -778,17 +787,12 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "PdfSharp/1.0.0": {
-      "type": "project",
-      "path": "../PdfSharp.Core/PdfSharp.csproj",
-      "msbuildProject": "../PdfSharp.Core/PdfSharp.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.NETCore.App >= 2.1.0",
-      "PdfSharp >= 1.0.0"
+      "PdfSharp.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -799,7 +803,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "E:\\Projects\\zCore\\PdfSharpNetCore\\PdfSharp.Charting\\PdfSharp.Charting.csproj",
-      "projectName": "PdfSharp.Charting",
+      "projectName": "PdfSharp.Charting.Core",
       "projectPath": "E:\\Projects\\zCore\\PdfSharpNetCore\\PdfSharp.Charting\\PdfSharp.Charting.csproj",
       "packagesPath": "C:\\Users\\LJGomez\\.nuget\\packages\\",
       "outputPath": "E:\\Projects\\zCore\\PdfSharpNetCore\\PdfSharp.Charting\\obj\\",
@@ -820,11 +824,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {
-            "E:\\Projects\\zCore\\PdfSharpNetCore\\PdfSharp.Core\\PdfSharp.csproj": {
-              "projectPath": "E:\\Projects\\zCore\\PdfSharpNetCore\\PdfSharp.Core\\PdfSharp.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -841,6 +841,10 @@
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
+          },
+          "PdfSharp.Core": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           }
         },
         "imports": [

@@ -10,10 +10,8 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.7.0" />
     <PackageReference Include="MSTest.TestAdapter" Version="1.2.1" />
     <PackageReference Include="MSTest.TestFramework" Version="1.2.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\PdfSharp.Core\PdfSharp.csproj" />
+    <PackageReference Include="PdfSharp.Charting.Core" Version="1.0.0" />
+    <PackageReference Include="PdfSharp.Core" Version="1.0.0" />
   </ItemGroup>
 
 </Project>

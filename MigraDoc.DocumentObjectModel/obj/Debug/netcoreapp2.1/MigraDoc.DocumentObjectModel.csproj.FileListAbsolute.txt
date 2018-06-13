@@ -1,9 +1,9 @@
-E:\Projects\zCore\PdfSharpNetCore\MigraDoc.DocumentObjectModel\bin\Debug\netcoreapp2.1\MigraDoc.DocumentObjectModel.deps.json
-E:\Projects\zCore\PdfSharpNetCore\MigraDoc.DocumentObjectModel\bin\Debug\netcoreapp2.1\MigraDoc.DocumentObjectModel.dll
-E:\Projects\zCore\PdfSharpNetCore\MigraDoc.DocumentObjectModel\bin\Debug\netcoreapp2.1\MigraDoc.DocumentObjectModel.pdb
 E:\Projects\zCore\PdfSharpNetCore\MigraDoc.DocumentObjectModel\obj\Debug\netcoreapp2.1\MigraDoc.DocumentObjectModel.csproj.CoreCompileInputs.cache
 E:\Projects\zCore\PdfSharpNetCore\MigraDoc.DocumentObjectModel\obj\Debug\netcoreapp2.1\MigraDoc.DocumentObjectModel.AssemblyInfoInputs.cache
 E:\Projects\zCore\PdfSharpNetCore\MigraDoc.DocumentObjectModel\obj\Debug\netcoreapp2.1\MigraDoc.DocumentObjectModel.AssemblyInfo.cs
-E:\Projects\zCore\PdfSharpNetCore\MigraDoc.DocumentObjectModel\obj\Debug\netcoreapp2.1\MigraDoc.DocumentObjectModel.dll
-E:\Projects\zCore\PdfSharpNetCore\MigraDoc.DocumentObjectModel\obj\Debug\netcoreapp2.1\MigraDoc.DocumentObjectModel.pdb
 E:\Projects\zCore\PdfSharpNetCore\MigraDoc.DocumentObjectModel\obj\Debug\netcoreapp2.1\MigraDoc.DocumentObjectModel.csprojAssemblyReference.cache
+E:\Projects\zCore\PdfSharpNetCore\MigraDoc.DocumentObjectModel\bin\Debug\netcoreapp2.1\MigraDoc.DocumentObjectModel.Core.deps.json
+E:\Projects\zCore\PdfSharpNetCore\MigraDoc.DocumentObjectModel\bin\Debug\netcoreapp2.1\MigraDoc.DocumentObjectModel.Core.dll
+E:\Projects\zCore\PdfSharpNetCore\MigraDoc.DocumentObjectModel\bin\Debug\netcoreapp2.1\MigraDoc.DocumentObjectModel.Core.pdb
+E:\Projects\zCore\PdfSharpNetCore\MigraDoc.DocumentObjectModel\obj\Debug\netcoreapp2.1\MigraDoc.DocumentObjectModel.Core.dll
+E:\Projects\zCore\PdfSharpNetCore\MigraDoc.DocumentObjectModel\obj\Debug\netcoreapp2.1\MigraDoc.DocumentObjectModel.Core.pdb
